@@ -1,0 +1,30 @@
+.box {
+  position: relative;
+  bottom: 350px;
+  left: 150px;
+  width: 55%;
+}
+
+.box__text {
+  background-color: #080808d6;
+  color: #fafafa;
+  font-size: 2.5rem;
+  padding: 30px;
+}
+
+.box__buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 1%;
+  margin-top: 10px;
+}
+
+.button {
+  background-color: #d74c4c;
+  border-radius: 5px;
+  border: #d74c4c;
+  padding: 10px;
+  color: #fafafa;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
