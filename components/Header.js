@@ -8,8 +8,8 @@ import logo from '../public/images/logo.png'
 const Header = () => {
   return (
     <div className={styles.header}>
-      <section>
-        <ul className={styles.header__info}>
+      <section className={styles.header__info}>
+        <ul className={styles.header__items}>
           <li className={styles.item}>
             <TiLocationArrowOutline className={styles.icon} />
             <div className={styles.item__info}>

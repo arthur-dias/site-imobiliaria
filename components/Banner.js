@@ -4,7 +4,7 @@ import styles from '../styles/Banner.module.css'
 
 const Banner = () => {
   return (
-    <div>
+    <div className={styles.banner}>
       <Image src={banner} alt='banner' />
       <div className={styles.box}>
         <p className={styles.box__text}>

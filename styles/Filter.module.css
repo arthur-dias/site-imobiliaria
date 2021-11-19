@@ -1,0 +1,56 @@
+.filter {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.filter__items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 85%;
+  list-style-type: none;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.item label {
+  margin-bottom: 10px;
+}
+
+.item select {
+  background-color: #e7e7e7;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.filter__options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 25px auto 0;
+  width: 85%;
+}
+
+.option__avancado {
+  color: #d74c4c;
+  cursor: pointer;
+}
+
+.option__search {
+  background-color: #d74c4c;
+  border-radius: 5px;
+  border: #d74c4c;
+  padding: 10px;
+  color: #fafafa;
+  cursor: pointer;
+  font-size: 1rem;
+}
