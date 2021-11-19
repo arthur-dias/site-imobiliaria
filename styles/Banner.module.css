@@ -1,12 +1,12 @@
 .banner {
-  height: 75vh;
+  position: relative;
 }
 
 .box {
-  position: relative;
-  bottom: 350px;
-  left: 150px;
-  width: 55%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-75%, -25%);
 }
 
 .box__text {

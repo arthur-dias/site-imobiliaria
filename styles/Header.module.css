@@ -1,14 +1,15 @@
 .header {
   display: flex;
   flex-direction: column;
+  background-color: #f5f5f5;
 }
 
 .header__info {
-  background-color: #d83b3bde;
+  background-color: #d74c4c;
 }
 
 .header__items {
-  color: #fafafa;
+  color: #f5f5f5;
   list-style-type: none;
   display: flex;
   flex-direction: row;
@@ -40,7 +41,6 @@
   width: 85%;
   margin: 0 auto;
   color: #1a1a1a;
-  background-color: #fafafa;
 }
 
 .nav__links {

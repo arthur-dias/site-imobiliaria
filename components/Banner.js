@@ -4,8 +4,8 @@ import styles from '../styles/Banner.module.css'
 
 const Banner = () => {
   return (
-    <div className={styles.banner}>
-      <Image src={banner} alt='banner' />
+    <div>
+      <Image className={styles.banner} src={banner} alt='banner' />
       <div className={styles.box}>
         <p className={styles.box__text}>
           ENCONTRE O IMÓVEL IDEAL PARA VOCÊ E SUA FAMILIA MORAR NA PRAIA!
