@@ -5,7 +5,7 @@
 }
 
 .header__info {
-  background-color: #d74c4c;
+  background-color: #f25955;
 }
 
 .header__items {
@@ -53,5 +53,5 @@
 }
 
 .nav__links a:hover {
-  color: #d74c4c;
+  color: #f25955;
 }

@@ -41,14 +41,14 @@
 }
 
 .option__avancado {
-  color: #d74c4c;
+  color: #f25955;
   cursor: pointer;
 }
 
 .option__search {
-  background-color: #d74c4c;
+  background-color: #f25955;
   border-radius: 5px;
-  border: #d74c4c;
+  border: #f25955;
   padding: 10px;
   color: #f5f5f5;
   cursor: pointer;
