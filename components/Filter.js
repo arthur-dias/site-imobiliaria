@@ -9,7 +9,7 @@ const Filter = () => {
           <label>
             <strong>Comprar ou Alugar?</strong>
           </label>
-          <select name='operacao' id=''>
+          <select name='operacao' id='operacao'>
             <option value='' disabled selected>
               Escolha...
             </option>
@@ -21,7 +21,7 @@ const Filter = () => {
           <label>
             <strong>O que você quer?</strong>
           </label>
-          <select name='opcao' id=''>
+          <select name='opcao' id='opcao'>
             <option value='' disabled selected>
               Escolha...
             </option>
@@ -34,7 +34,7 @@ const Filter = () => {
           <label>
             <strong>Qual o tipo do imóvel?</strong>
           </label>
-          <select name='opcao' id=''>
+          <select name='opcao' id='opcao'>
             <option value='' disabled selected>
               Escolha...
             </option>
@@ -47,7 +47,7 @@ const Filter = () => {
           <label>
             <strong>Qual o tipo do imóvel?</strong>
           </label>
-          <select name='opcao' id=''>
+          <select name='opcao' id='opcao'>
             <option value='' disabled selected>
               Escolha...
             </option>

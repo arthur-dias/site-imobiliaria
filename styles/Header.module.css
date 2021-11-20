@@ -27,6 +27,7 @@
 
 .item__info {
   margin-left: 20px;
+  font-size: 0.9rem;
 }
 
 .icon {
@@ -40,7 +41,7 @@
   justify-content: space-between;
   width: 85%;
   margin: 0 auto;
-  color: #1a1a1a;
+  color: #808080;
 }
 
 .nav__links {
