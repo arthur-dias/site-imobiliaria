@@ -1,32 +1,29 @@
+import DetalheImovel from '../../components/DetalheImovel'
 import { imoveis } from '../../lib/data'
+import { styles } from '../../styles/[id].module.css'
 
-const interna = ({ data }) => {
-  /* imoveis.aluguel.map((imovel) => {
-    const id = imovel.id.toString()
-    console.log(id)
-  }) */
-
-  console.log(data)
-
+const interna = ({ imovel }) => {
   return (
     <div>
-      <p>interna aluguel</p>
+      <DetalheImovel imovel={imovel} />
     </div>
   )
 }
 
 export const getStaticProps = async ({ params }) => {
-  const imovel = imoveis.aluguel.filter((p) => p.id.toString() === params.id)
+  const imovel = await imoveis.aluguel.filter(
+    (p) => p.id.toString() === params.id
+  )
 
   return {
     props: {
-      data: imovel[0],
+      imovel: imovel[0],
     },
   }
 }
 
 export const getStaticPaths = async () => {
-  const paths = imoveis.aluguel.map((imovel) => ({
+  const paths = await imoveis.aluguel.map((imovel) => ({
     params: { id: imovel.id.toString() },
   }))
 

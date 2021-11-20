@@ -34,9 +34,14 @@ const Header = () => {
         </ul>
       </section>
       <section className={styles.header__nav}>
-        <Image src={logo} alt='Logo' />
+        <Link href='/' passHref>
+          <a>
+            <Image src={logo} alt='Logo' />
+          </a>
+        </Link>
+
         <nav className={styles.nav__links}>
-          <Link href='#'>Home</Link>
+          <Link href='/'>Home</Link>
           <Link href='#'>Destaque</Link>
           <Link href='#'>Alugar</Link>
           <Link href='#'>Comprar</Link>

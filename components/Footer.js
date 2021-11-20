@@ -15,7 +15,7 @@ const Footer = () => {
             Navegue <span className={styles.nav__text__estilo}>Aqui!</span>
           </p>
           <nav className={styles.nav__links}>
-            <Link href='#'>Home</Link>
+            <Link href='/'>Home</Link>
             <Link href='#'>Destaque</Link>
             <Link href='#'>Alugar</Link>
             <Link href='#'>Comprar</Link>
