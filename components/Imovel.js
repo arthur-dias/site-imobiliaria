@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from '../styles/Imovel.module.css'
 import { TiLocationArrow } from 'react-icons/ti'
 import {
@@ -8,6 +9,7 @@ import {
 } from 'react-icons/md'
 
 const Imovel = ({
+  id,
   titulo,
   imagem,
   detalhe,
@@ -17,6 +19,7 @@ const Imovel = ({
   dormitorios,
   garagem,
   areaTotal,
+  link,
 }) => {
   return (
     <div className={styles.imovel}>
@@ -30,7 +33,12 @@ const Imovel = ({
         <p className={styles.imovel__valor}>
           <strong> R$ {valor} </strong>
         </p>
-        <button>Ver Imóvel</button>
+
+        <Link href={link} passHref>
+          <a>
+            <button>Ver Imóvel</button>
+          </a>
+        </Link>
       </div>
       <div className={styles.imovel__itens}>
         <span>

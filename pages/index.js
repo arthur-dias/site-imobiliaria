@@ -1,15 +1,11 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import imoveis from '../db.json'
 import Imoveis from '../components/Imoveis'
 import Banner from '../components/Banner'
 import Filter from '../components/Filter'
 import Encontre from '../components/Encontre'
+import { imoveis } from '../lib/data'
 
-const imoveisAluguel = imoveis.aluguel
-const imoveisVenda = imoveis.venda
-
-export default function Home() {
+export default function Home({ imoveisAluguel, imoveisVenda }) {
   return (
     <>
       <Head>
@@ -23,4 +19,15 @@ export default function Home() {
       <Imoveis imoveisAluguel={imoveisAluguel} imoveisVenda={imoveisVenda} />
     </>
   )
+}
+
+export const getStaticProps = async () => {
+  const [imoveisAluguel, imoveisVenda] = [imoveis.aluguel, imoveis.venda]
+
+  return {
+    props: {
+      imoveisAluguel,
+      imoveisVenda,
+    },
+  }
 }

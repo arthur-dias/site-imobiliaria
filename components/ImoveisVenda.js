@@ -20,7 +20,9 @@ const ImoveisVenda = ({ imoveisVenda }) => {
             dormitorios={imovel.dormitorios}
             garagem={imovel.garagem}
             areaTotal={imovel.area_total}
-            key={imovel.titulo}
+            key={imovel.id}
+            id={imovel.id}
+            link={`/venda/${imovel.id}`}
           />
         ))}
       </ul>
