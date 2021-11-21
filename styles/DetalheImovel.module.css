@@ -1,3 +1,280 @@
-.imoveisAluguel {
-  color: red;
+.imovel {
+}
+.imovel__nome {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #f5f5f5;
+  padding: 40px 0;
+}
+.nome__titulo {
+  width: 85%;
+  margin: 0 auto;
+  color: #f25955;
+  font-size: 2rem;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.nome__subtitulo {
+  width: 85%;
+  margin: 0 auto;
+}
+.conteudo {
+  padding: 50px 0;
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.imovel__info {
+  flex-basis: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.carousel {
+  background-color: aqua;
+  width: 100%;
+}
+.valor {
+  padding: 10px 0 30px;
+}
+.valor__iptu {
+  color: #808080;
+  font-size: 0.8rem;
+}
+.valor__imovel {
+  color: #808080;
+}
+.info__descricao {
+  padding-bottom: 30px;
+}
+.info__titulo {
+  color: #f25955;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.info__texto {
+  padding-top: 10px;
+}
+.info__caracteristicas {
+  width: 100%;
+  padding-bottom: 30px;
+}
+.caracteristicas__titulo {
+  color: #f25955;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.caracteristicas__itens {
+  list-style-type: none;
+  padding-top: 10px;
+}
+.caracteristicas__item {
+  padding: 10px 0 10px 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40%;
+}
+
+.caracteristicas__item p:first-child {
+  width: 30%;
+}
+
+.caracteristicas__item:nth-child(odd) {
+  background-color: #f5f5f5;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.info__estrutura {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-bottom: 30px;
+}
+.estrutura__titulo {
+  color: #f25955;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.estrutura__itens {
+  width: 100%;
+  padding-top: 10px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1%;
+}
+.estrutura__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #36ba9b;
+  color: #f5f5f5;
+  padding: 5px;
+  border: 1px solid #2fa78b;
+  border-radius: 3px;
+}
+.info__mapa {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mapa__titulo {
+  color: #f25955;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.mapa__iframe {
+  width: 100%;
+  height: 300px;
+  border: none;
+  padding-top: 20px;
+}
+.contato {
+  flex-basis: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 30px;
+}
+
+.contato a {
+  width: 100%;
+}
+
+.contato__whats__btn {
+  background-color: #fff;
+  border: 1px solid #219f4f;
+  border-radius: 5px;
+  padding: 10px 5px;
+  width: 100%;
+  color: #219f4f;
+  font-size: 1rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 3%;
+  cursor: pointer;
+}
+.contato__form {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  background-color: #f5f5f5;
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+}
+
+.form__title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  background-color: #f25955;
+  width: 100%;
+  padding: 25px;
+  color: #f5f5f5;
+}
+.form__fields {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px 15px 15px;
+  width: 100%;
+}
+
+.form__fields input {
+  margin: 10px 0;
+  width: 100%;
+  padding: 7px;
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+}
+
+.form__fields textarea {
+  font-family: inherit;
+  font-size: inherit;
+  margin: 10px 0;
+  width: 100%;
+  padding: 7px;
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+}
+
+.form__button {
+  background-color: #f25955;
+  border-radius: 5px;
+  border: #f25955;
+  padding: 10px;
+  color: #f5f5f5;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 90%;
+}
+
+.contato__form a {
+  width: auto;
+  margin: 25px 0 30px;
+  color: #f25955;
+  font-weight: 700;
+  text-align: center;
+}
+.contato__share {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.contato__share button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: #f5f5f5;
+  border: none;
+  border-radius: 3px;
+}
+
+.contato__share button svg {
+  margin-right: 5px;
+}
+
+.contato__share a {
+  width: auto;
+}
+
+.btn__twitter {
+  background-color: #00acee;
+}
+
+.btn__facebook {
+  background-color: #3b5988;
+}
+
+.btn__instagram {
+  background-color: #f25955;
 }

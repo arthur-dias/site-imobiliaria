@@ -38,6 +38,11 @@
   font-size: 1.6rem;
 }
 
+.imovel a {
+  width: 100%;
+  margin-top: 20px;
+}
+
 .imovel button {
   background-color: #f25955;
   border-radius: 5px;
@@ -45,9 +50,8 @@
   padding: 10px;
   color: #f5f5f5;
   font-size: 1.2rem;
-  width: 100%;
   cursor: pointer;
-  margin-top: 20px;
+  width: 100%;
 }
 
 .imovel__itens {

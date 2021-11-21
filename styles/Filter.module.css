@@ -46,6 +46,9 @@
 }
 
 .option__search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   background-color: #f25955;
   border-radius: 5px;
   border: #f25955;
