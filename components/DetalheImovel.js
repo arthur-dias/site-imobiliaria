@@ -5,6 +5,7 @@ import { GoCheck } from 'react-icons/go'
 import { FaWhatsapp } from 'react-icons/fa'
 import { AiOutlineFacebook, AiOutlineInstagram } from 'react-icons/ai'
 import { FiTwitter } from 'react-icons/fi'
+import Carousel from './Carousel'
 
 const DetalheImovel = ({ imovel }) => {
   return (
@@ -18,12 +19,7 @@ const DetalheImovel = ({ imovel }) => {
       <div className={styles.conteudo}>
         <div className={styles.imovel__info}>
           <div className={styles.carousel}>
-            <Image
-              src={imovel.imagem}
-              width={350}
-              height={200}
-              alt={imovel.titulo}
-            />
+            <Carousel galeria={imovel.galeria} />
           </div>
           {imovel.iptu ? (
             <div className={styles.valor}>
