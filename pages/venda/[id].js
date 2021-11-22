@@ -1,26 +1,32 @@
+import Head from 'next/head'
+import DetalheImovel from '../../components/DetalheImovel'
 import { imoveis } from '../../lib/data'
 
-const interna = ({ data }) => {
-  console.log(data)
+const interna = ({ imovel }) => {
   return (
     <div>
-      <p>interna venda</p>
+      <Head>
+        <title>{imovel.titulo}</title>
+      </Head>
+      <DetalheImovel imovel={imovel} />
     </div>
   )
 }
 
 export const getStaticProps = async ({ params }) => {
-  const imovel = imoveis.venda.filter((p) => p.id.toString() === params.id)
+  const imovel = await imoveis.venda.filter(
+    (p) => p.id.toString() === params.id
+  )
 
   return {
     props: {
-      data: imovel[0],
+      imovel: imovel[0],
     },
   }
 }
 
 export const getStaticPaths = async () => {
-  const paths = imoveis.venda.map((imovel) => ({
+  const paths = await imoveis.venda.map((imovel) => ({
     params: { id: imovel.id.toString() },
   }))
 
