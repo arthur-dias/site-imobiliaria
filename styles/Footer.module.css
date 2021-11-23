@@ -82,6 +82,10 @@
     padding-bottom: 10px;
   }
 
+  .footer__nav {
+    margin-bottom: 15px;
+  }
+
   .nav__links {
     align-items: center;
   }

@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import DetalheImovel from '../../components/DetalheImovel'
 import { imoveis } from '../../lib/data'
-import { styles } from '../../styles/[id].module.css'
 
 const interna = ({ imovel }) => {
   return (

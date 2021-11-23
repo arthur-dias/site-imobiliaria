@@ -279,3 +279,59 @@
 .btn__instagram {
   background-color: #f25955;
 }
+
+@media screen and (max-width: 768px) {
+  .conteudo {
+    flex-direction: column;
+  }
+
+  .imovel__info {
+    width: 100%;
+  }
+
+  .carousel {
+    height: auto;
+  }
+
+  .estrutura__itens {
+    flex-wrap: wrap;
+  }
+
+  .estrutura__item {
+    margin: 3px;
+  }
+
+  .contato {
+    width: 100%;
+    margin-top: 35px;
+    padding: 0;
+  }
+
+  .contato__share {
+    flex-wrap: wrap;
+  }
+
+  .contato__share a {
+    width: 100%;
+  }
+
+  .contato__share button {
+    margin: 0 auto 5px;
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .carousel {
+    height: 35vh;
+  }
+
+  .contato__share {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contato__share button {
+    margin-bottom: 10px;
+  }
+}

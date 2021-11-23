@@ -52,3 +52,15 @@
   font-size: 3rem;
   color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+  .navegacao__flechas {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .navegacao__flechas {
+    bottom: 150px;
+  }
+}
