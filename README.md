@@ -11,8 +11,12 @@ Teste Front-end Vista
 
 ## Frameworks e Libs utilizadas
 
-Nextjs e Embla Carousel
+Nextjs, Embla Carousel e React-icons
 
 ## Styling
 
 CSS Modules
+
+## Imagens
+
+Pexels
