@@ -32,3 +32,26 @@
   font-size: 1.2rem;
   cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+  .box {
+    position: initial;
+    transform: none;
+  }
+
+  .box__text {
+    font-size: 1rem;
+  }
+
+  .box__buttons {
+    align-items: center;
+    justify-content: space-around;
+    gap: 0%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .box {
+    transform: translate(-85%, -65%);
+  }
+}

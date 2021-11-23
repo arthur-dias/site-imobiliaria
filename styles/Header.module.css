@@ -56,3 +56,31 @@
 .nav__links a:hover {
   color: #f25955;
 }
+
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
+  .header__items {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 auto;
+    padding: 15px 0;
+    width: 85%;
+  }
+  .item {
+    padding-bottom: 10px;
+  }
+  .header__nav {
+    width: 100%;
+    flex-direction: column;
+  }
+  .nav__links {
+    padding: 20px 0;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .nav__links a {
+    margin-right: 0;
+  }
+}

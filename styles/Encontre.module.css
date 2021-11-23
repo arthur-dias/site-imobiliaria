@@ -60,3 +60,10 @@
   font-size: 1.3rem;
   text-shadow: 1px 1px 5px black;
 }
+
+@media screen and (max-width: 768px) {
+  .encontre__items {
+    align-items: center;
+    justify-content: center;
+  }
+}
