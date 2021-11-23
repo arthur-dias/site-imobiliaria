@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import banner from '../public/images/banner.jpg'
 import styles from '../styles/Banner.module.css'
 
@@ -12,12 +13,20 @@ const Banner = () => {
         </p>
 
         <div className={styles.box__buttons}>
-          <button className={styles.button}>
-            Quero <strong>Alugar</strong>!
-          </button>
-          <button className={styles.button}>
-            Quero <strong>Comprar</strong>!
-          </button>
+          <Link href='#' passHref>
+            <a>
+              <button className={styles.button}>
+                Quero <strong>Alugar</strong>!
+              </button>
+            </a>
+          </Link>
+          <Link href='#' passHref>
+            <a>
+              <button className={styles.button}>
+                Quero <strong>Comprar</strong>!
+              </button>
+            </a>
+          </Link>
         </div>
       </div>
     </div>

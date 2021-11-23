@@ -40,8 +40,11 @@
   margin-top: 35px;
 }
 
-.item {
+.encontre__items a {
   margin-bottom: 40px;
+}
+
+.item {
   position: relative;
   text-align: center;
   cursor: pointer;

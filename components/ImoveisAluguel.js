@@ -1,4 +1,5 @@
 import Imovel from './Imovel'
+import Link from 'next/link'
 import styles from '../styles/ImoveisAluguel.module.css'
 
 const ImoveisAluguel = ({ imoveisAluguel }) => {
@@ -7,7 +8,11 @@ const ImoveisAluguel = ({ imoveisAluguel }) => {
       <div className={styles.imoveisAluguel__content}>
         <div className={styles.imoveisAluguel__titulo}>
           <p className={styles.titulo__tipo}>Para Alugar</p>
-          <p className={styles.titulo__vermais}>Ver mais</p>
+          <Link href='#' passHref>
+            <a>
+              <p className={styles.titulo__vermais}>Ver mais</p>
+            </a>
+          </Link>
         </div>
         <ul className={styles.imoveisAluguel__itens}>
           {imoveisAluguel.map((imovel) => (
