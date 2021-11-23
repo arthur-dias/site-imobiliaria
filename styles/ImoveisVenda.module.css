@@ -32,3 +32,7 @@
   margin-top: 35px;
   list-style-type: none;
 }
+
+.imoveisVenda__itens img {
+  border-radius: 3px 3px 0 0;
+}

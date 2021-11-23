@@ -42,10 +42,12 @@
 }
 .valor__iptu {
   color: #808080;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 .valor__imovel {
   color: #808080;
+  font-size: 1.2rem;
+  margin-top: 5 px;
 }
 .info__descricao {
   padding-bottom: 30px;
@@ -189,8 +191,9 @@
   font-weight: 700;
   background-color: #f25955;
   width: 100%;
-  padding: 25px;
+  padding: 20px;
   color: #f5f5f5;
+  border-radius: 3px;
 }
 .form__fields {
   display: flex;

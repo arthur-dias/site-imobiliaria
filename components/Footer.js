@@ -1,10 +1,12 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import styles from '../styles/Footer.module.css'
 import {
   FaTwitterSquare,
   FaInstagramSquare,
   FaFacebookSquare,
 } from 'react-icons/fa'
+import imagemFooter from '../public/images/imagem-footer.png'
 
 const Footer = () => {
   return (
@@ -56,6 +58,7 @@ const Footer = () => {
           </Link>
         </div>
       </div>
+      <Image src={imagemFooter} alt='imagem footer' />
       <div className={styles.footer__info}>
         <p>
           Imobiliária | CRECI 1234 | Avenida Pequeno Príncipe, 0 - Campeche

@@ -13,10 +13,10 @@ const Banner = () => {
 
         <div className={styles.box__buttons}>
           <button className={styles.button}>
-            Quero <strong>Comprar</strong>!
+            Quero <strong>Alugar</strong>!
           </button>
           <button className={styles.button}>
-            Quero <strong>Alugar</strong>!
+            Quero <strong>Comprar</strong>!
           </button>
         </div>
       </div>
