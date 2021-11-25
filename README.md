@@ -11,12 +11,12 @@ Teste Front-end Vista
 
 ## Frameworks e Libs utilizadas
 
-Nextjs, Embla Carousel e React-icons
+[Nextjs](https://nextjs.org/), [Embla Carousel](https://www.embla-carousel.com/) e [React-icons](https://react-icons.github.io/react-icons/)
 
 ## Styling
 
-CSS Modules
+[CSS Modules](https://github.com/css-modules/css-modules)
 
 ## Imagens
 
-Pexels
+[Pexels](https://www.pexels.com/)
