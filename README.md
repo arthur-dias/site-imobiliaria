@@ -1,13 +1,4 @@
-Teste Front-end Vista
-
-## Inicializar app
-
-1) Clonar repositório;
-2) cd teste-vistasoft/
-3) npm install || yarn install;
-4) npm run dev || yarn dev;
-5) Abrir [http://localhost:3000](http://localhost:3000) no browser.
-
+Site de uma imobiliária com internas estaticamente geradas utilizando Next.js e mock data.
 
 ## Frameworks e Libs utilizadas
 
@@ -20,3 +11,11 @@ Teste Front-end Vista
 ## Imagens
 
 [Pexels](https://www.pexels.com/)
+
+## Inicializar app
+
+1) Clonar repositório;
+2) cd teste-vistasoft/
+3) npm install || yarn install;
+4) npm run dev || yarn dev;
+5) Abrir [http://localhost:3000](http://localhost:3000) no browser.
